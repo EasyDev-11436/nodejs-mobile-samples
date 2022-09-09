@@ -36,11 +36,11 @@ jobs:
 
     - name: Make Gradle executable
 
-      run: chmod +x ./gradlew
+      run: chmod +x ./android/native-gradle/gradlew
 
     - name: Build with Gradle
 
-      run: ./gradlew build
+      run: ./android/native-gradle/gradlew build
 
     - name: Checking Files
 
