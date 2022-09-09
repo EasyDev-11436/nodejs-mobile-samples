@@ -34,13 +34,13 @@ jobs:
 
     # [1.7, 1.8, 11, ...]
 
-    - name: Make Gradle executable
+    #- name: Make Gradle executable
 
-      run: cd ./android/native-gradle/
+    #  run: cd ./android/native-gradle/
 
     - name: Build with Gradle
 
-      run: gradle build
+      run: cd ./android/native-gradle && gradle build
 
     - name: Checking Files
 
