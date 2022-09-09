@@ -40,7 +40,7 @@ jobs:
 
     - name: Build with Gradle
 
-      run: cd ./android/native-gradle && chmod +x gradlew && ./gradlew build
+      run: cd ./android/native-gradle/app && gradle build
 
     - name: Checking Files
 
